@@ -1,0 +1,249 @@
+@charset "utf-8";
+@media(max-width:768px){
+
+.hero-body{background-color:var(--color-six);}
+
+
+
+
+.navbar-burger{margin-top:-190px;
+                border: solid 2px ;
+                 }
+
+
+
+
+
+
+.navbar-menu{font-size: 1.2rem;
+             text-align: center;}
+
+.navbar-start{}
+
+
+
+.navbar-menu{background-color: var(--color-nine) !important;/*esse elemento é o findo teimoso*/
+}
+
+   .navbar-item:hover{background-color:var(--color-three) !important;} 
+
+.buttons{display: flex;
+         flex-direction: row;
+          justify-content: space-between;}
+
+.title{font-size: 3rem;}
+
+.subtitle{font-size: 2rem;}
+
+
+.section{background-color:var(--color-nine);
+         margin-top: 5px;
+         margin-bottom: 5px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;}
+
+
+
+ 
+
+ .slideshow-container{width:80%;
+                     
+                      margin: auto;}
+
+ .mySlides {display: none;}
+
+  img {vertical-align: middle;
+       width: 100%;
+       border-radius: 5px;}
+
+/*//////SESSAO-VENDAS/////////*/
+
+
+
+
+.carousel{width: 100%;
+          overflow-x: auto;
+          overflow-y: hidden;
+         margin-top: -20px;
+
+
+    >.carousel-items{display:flex;
+                   flex-direction: row;
+                   }}
+
+
+
+
+.carousel-item{width: 100%;
+            max-width: 300px;
+            margin:15px;
+            
+           padding: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+             }
+
+
+.carouselitem  img { width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                   
+                  }
+
+  pre{text-align: justify;
+      margin-left: -55px;}
+
+
+
+                
+                
+
+
+button {
+ 
+  
+  padding: 10px 30px;
+  border: none;
+  
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+
+
+.prod-vendas{margin-top: -30px;
+ 
+           >div{padding: 20px;
+               display: flex;
+               flex-direction: column;
+               }
+ 
+  .carousel{height:auto;}
+            
+     .carousel-item{min-width: 320px;
+                     max-width: 320px;
+                    
+      
+                & img{width: 100%;}}}
+
+  
+    .h3-prod{margin-bottom: 5px;}
+
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color:var(--color-six);
+  margin: auto;
+  display: flex;
+  
+}
+
+.columns {display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction:column;
+  justify-content: center;
+ 
+   
+}
+
+.column {
+  background-color:var(--color-nine);
+  width: 80%;
+   margin: auto;
+   
+  margin-bottom: 10px;}
+
+
+.h4-footer{font-size: 1.2rem;
+           color: #ffff;
+           text-align: center;}
+  
+
+#medias{display:inline;
+        flex-direction: row;
+       justify-content: space-around;}
+
+
+.aside-pay{width: 48px;
+               height: 48px;
+              margin: 5px;
+                display: inline-block;
+                flex-direction: row;
+                justify-content: space-between;}
+               
+                
+
+
+#pay-boleto{background-image: url("/assets/icons/icons8-boleto-bancário-48.png");
+ background-repeat: no-repeat;
+ background-size: contain;}
+
+#pay-pix{background-image: url("/assets/icons/icons8-pix-96.png");
+       background-repeat: no-repeat;
+ background-size: contain;}
+
+#pay-visa{background-image: url("/assets/icons/icons8-visa-48.png");
+ background-repeat: no-repeat;
+ background-size: contain;}
+
+#pay-mastercard{background-image: url("/assets/icons/icons8-mastercard-200.png");
+ background-repeat: no-repeat;
+ background-size: contain;}
+
+
+.aside-social{width: 48px;
+               height: 48px;
+              margin: 5px;
+                border-radius: 50px;
+                display: inline-block;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;}
+                
+
+
+
+#aside-facebook{background-image: url("/assets/icons/icons8-facebook-48.png");
+                 background-size: contain;
+                 background-repeat: no-repeat;}
+
+#aside-instagram{ background-image: url("/assets/icons/icons8-instagram-48.png");
+                 background-size: contain;
+                 background-repeat: no-repeat;}
+
+#aside-youtube{background-image:url("/assets/icons/icons8-youtube-48.png");
+                background-size:contain;
+                 background-repeat: no-repeat;}
+
+
+
+.breadcrumb ul{
+             height: auto;
+             display: flex;
+                    flex-direction: column;
+                     justify-content: center;
+                     align-items: center;
+
+
+            >li a{color:#ffff;
+                   list-style-type: none;}
+
+}
+        .breadcrumb li a:hover{color: #ffff;}
+
+
+ 
+
+
+
+
+
+}
+
+

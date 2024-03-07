@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+:root{ --color-one: #242424;
+    --color-two: #333333;
+    --color-three:#050505;
+    --color-four: #000000;
+    --color-five: #8C7264;
+    --color-six: #A65E44;
+    --color-seven: #BFA59B;
+    --color-eight: #D9C2BA;
+    --color-nine: #593B34;
+    --color-ten: #F2F2F2;
+    --color-bg-test:#7B94A8;}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: darkgrey;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.columns {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+   margin-top: 10px;
+}
+
+.column {
+  background-color: cadetblue;
+  width: 80%; /* Reduzi um pouco a largura para deixar algum espaço nas laterais */
+   margin: auto;
+   
+  margin-bottom: 10px;
+  
+}
